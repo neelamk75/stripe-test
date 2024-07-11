@@ -8,8 +8,8 @@
 </head>
 <body>
     <script src="{{ url_for('static', path='script.js') }}"></script>
-    <button id="checkout-premium">Subscribe Premium</button>
-    <button id="checkout-basic">Subscribe Basic</button>
+    <button id="checkout-yearly">Subscribe Yearly</button>
+    <button id="checkout-monthly">Subscribe Monthly</button>
     {% if hasCustomer %}
     <button id="manage-billing">Manage Billing</button>
     {% endif %}
