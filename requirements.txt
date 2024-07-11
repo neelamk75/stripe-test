@@ -1,0 +1,16 @@
+aiofiles
+certifi
+chardet
+click
+fastapi
+h11
+idna
+Jinja2
+MarkupSafe
+pydantic
+requests
+starlette
+stripe
+typing-extensions
+urllib3
+uvicorn
